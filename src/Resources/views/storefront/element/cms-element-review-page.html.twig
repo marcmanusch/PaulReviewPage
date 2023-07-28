@@ -1,0 +1,11 @@
+<div class="cms-element-review-page">
+
+    {% set searchResult = element.data.items %}
+
+    {% block element_product_review_listing_wrapper %}
+        {% sw_include '@PaulReviewPage/storefront/element/review-listing.html.twig' with {
+            searchResult: searchResult,
+        } %}
+    {% endblock %}
+
+</div>

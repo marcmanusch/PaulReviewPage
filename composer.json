@@ -1,0 +1,31 @@
+{
+  "name": "paul/review-page",
+  "description": "Shopping world review page",
+  "version": "1.0.1",
+  "type": "shopware-platform-plugin",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Marc Manusch"
+    }
+  ],
+  "require": {
+    "shopware/core": "6.5.*"
+  },
+  "extra": {
+    "shopware-plugin-class": "PaulReviewPage\\PaulReviewPage",
+    "label": {
+      "de-DE": "Bewertungen als Shopseite",
+      "en-GB": "Reviewpage"
+    },
+    "description": {
+      "de-DE": "Erlebniswelten-Element mit Bewertungen",
+      "en-GB": "Shopping world review page"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "PaulReviewPage\\": "src/"
+    }
+  }
+}
